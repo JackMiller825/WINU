@@ -1,0 +1,259 @@
+{
+  "project": "WhaleCoin Inu",
+  "ticker": "WINU",
+  "stack": "Next.js 15 App Router, TypeScript, React 19",
+  "generated_files_excluding_manifest": 50,
+  "checks": "source parse, CSS parse, 19 image checks, 12 content scenes PASS; Next build unverified due npm registry DNS failure",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 195,
+      "sha256": "b04457f825e8334f297dc18b870baa3f0b7f248b2e69c11f99f5c2991861b33c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 70,
+      "sha256": "4f89f5600def221186589bca6f438acf55d53bdc8c35a0d3a86d5b8d8171cd63"
+    },
+    {
+      "path": "CURSOR_BUILD_PROMPT.md",
+      "bytes": 10347,
+      "sha256": "927241cf84b4245832b9687889da2cf3b9d90994c4b2a0e778573b4246b3589f"
+    },
+    {
+      "path": "HELP.md",
+      "bytes": 2810,
+      "sha256": "caa8c35d12f3e77ff1d999ae8da51de3e2c38bbfc2b0a6b75ada4a6ba0ae2480"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5885,
+      "sha256": "c994677bb4ca45aaa9210f106669aa53f77d49942bd2d443d50e2a3c83b273ab"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 26968,
+      "sha256": "8551337f7f75b7c21887a04b309443683b9355f50e3a8aa1d65155198a4e3024"
+    },
+    {
+      "path": "app/icon.png",
+      "bytes": 11048,
+      "sha256": "a7552b271734889143f49032ddf7c2b5a0d98369d0db2419766832e4a42ce794"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 1167,
+      "sha256": "5ecfede1811d79808d28078e55646e418490ad11a04dcd921e593ceda3e8342a"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 650,
+      "sha256": "65e25add4cc33793601f734a222f129ac7bf6fd6affec507f3e237b140934790"
+    },
+    {
+      "path": "components/Community.tsx",
+      "bytes": 1557,
+      "sha256": "49ac093323b5afbc01c316e5989a7ec88b1a44a1a65db261a01ba8ff3f2faa7a"
+    },
+    {
+      "path": "components/Footer.tsx",
+      "bytes": 714,
+      "sha256": "c22516fa2ea18edc8e71d4e9d2a13dbd288f8005d750d3f9e3e5ebb656a0b0ed"
+    },
+    {
+      "path": "components/Gallery.tsx",
+      "bytes": 5001,
+      "sha256": "d125652309a590dfaa8821332e2837c19ca77952b9d0e534bf795ce909ef6fc9"
+    },
+    {
+      "path": "components/Header.tsx",
+      "bytes": 2306,
+      "sha256": "adb88c1aa91a74df9a61c0f96a7f8b03d1a0d505a80ae98d76d7271d381fe1ae"
+    },
+    {
+      "path": "components/Hero.tsx",
+      "bytes": 3256,
+      "sha256": "c499d7ab88da31bc4677b382d9cb7ba2c61457af951fa400b2f8369383dd8caa"
+    },
+    {
+      "path": "components/HowToBuy.tsx",
+      "bytes": 1882,
+      "sha256": "b4b1d289b05d4bbe0e5f2f44ac44d2b93362604ca41918a528668024a7ea4634"
+    },
+    {
+      "path": "components/Icons.tsx",
+      "bytes": 1455,
+      "sha256": "89847e953d4d7c667dfd24b0eaa2a896d139a6388eff2118a843d0c1f21a717f"
+    },
+    {
+      "path": "components/Marquee.tsx",
+      "bytes": 451,
+      "sha256": "2d870e13e6e86c4f3fbfe898e4578d95509ca49b5f26569e36b06e40b7fa3397"
+    },
+    {
+      "path": "components/Reveal.tsx",
+      "bytes": 854,
+      "sha256": "6f43633f9d4dc4cd57b2a62c76fe4de0a20d2002b2f32855f2ef66ed69cb78a3"
+    },
+    {
+      "path": "components/Story.tsx",
+      "bytes": 1489,
+      "sha256": "d6f5a0aa4d84c3ac80c56b475aef1688a8486e98c0ead6f0936e857998924ff6"
+    },
+    {
+      "path": "components/TokenPanel.tsx",
+      "bytes": 2635,
+      "sha256": "19ab784fe7adda5f86517f1f9031495484fd1adf67c41c2d7de91c1247f36c36"
+    },
+    {
+      "path": "content/site.ts",
+      "bytes": 4874,
+      "sha256": "43f0d9aca087a3b694597b7f870c4bd7392f827048f5c33b2523d27e5b4b8683"
+    },
+    {
+      "path": "docs/BUILD_STATUS.md",
+      "bytes": 1091,
+      "sha256": "6f54a5a4a279f14a942c64f6b47a0bb835208ed634e47f158941523e3d97d7be"
+    },
+    {
+      "path": "docs/QA_CHECKLIST.md",
+      "bytes": 1786,
+      "sha256": "44cb357d2aacf0a67236b3330dfafb50fa9a3911fe6c1e6fbb9de56400416cce"
+    },
+    {
+      "path": "docs/REFERENCE_MAPPING.md",
+      "bytes": 1786,
+      "sha256": "5e78412ed53c09bfd07e4a56d30f15e7c0801e8828efce0f74dd44a17a74167f"
+    },
+    {
+      "path": "docs/asset-manifest.json",
+      "bytes": 5290,
+      "sha256": "ec29615dce1d70b347d1e6f6220f512b1952879ab2ec55b5c97348ce5eb743f2"
+    },
+    {
+      "path": "lib/assets.ts",
+      "bytes": 286,
+      "sha256": "92bf5bd9f6d2a2ce96ff857fad8f7f87907527904aee40ce0c3aea5081bc24fd"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 117,
+      "sha256": "b8d05aa44a0b154c81cbff5c07e20ecf5fa3c80e7d76a323ebb9f24022e18299"
+    },
+    {
+      "path": "next.config.mjs",
+      "bytes": 283,
+      "sha256": "055cda671e84216d1b03ba1691f1ced302a6356559f9fb8350d6435c1fd456ee"
+    },
+    {
+      "path": "package.json",
+      "bytes": 581,
+      "sha256": "71fd848ed41b4ce2d0541132fdd09010b82d7a639b4e1a3fcf5b3a27dc9c8a5b"
+    },
+    {
+      "path": "public/branding/winu-banner-1500x500.png",
+      "bytes": 1072084,
+      "sha256": "1a54358e541ab93d1073f17ec51d3362cf2e8f2ee8ea34a625c636f1b3a0ddb1"
+    },
+    {
+      "path": "public/branding/winu-logo-transparent.png",
+      "bytes": 1751015,
+      "sha256": "502b86a706448fbc42ea7d33c34d6bd34b7c34410b71b52c13b82933a2e18732"
+    },
+    {
+      "path": "public/branding/winu-mascot-transparent.png",
+      "bytes": 1068250,
+      "sha256": "997dc9ebcd3f68caafca69da0d72d2a31da10135a06f38a1a6f0dd7c4c4deb1f"
+    },
+    {
+      "path": "public/branding/winu-telegram-1100x520.png",
+      "bytes": 795002,
+      "sha256": "c514be804bbb1eb4ce24b54ae0cbf7fa1955094ca868abc52b0ae7b21ed2c587"
+    },
+    {
+      "path": "public/images/lore-before.jpg",
+      "bytes": 557041,
+      "sha256": "0defdcfed6c8382257d108112e3f5a6ec17aecbcabb3a35d7d75f11e95f88381"
+    },
+    {
+      "path": "public/images/lore-famous.jpg",
+      "bytes": 423430,
+      "sha256": "6a7ecb91c3f30dd844da8b9a6521e893fd9522e9e6127efb63c710ad12579900"
+    },
+    {
+      "path": "public/images/lore-found.jpg",
+      "bytes": 459810,
+      "sha256": "d5de6de3705ce4fde4dc58aaf81712cd1b5646fa1f232541381bd55811882764"
+    },
+    {
+      "path": "public/images/whale-banner.png",
+      "bytes": 307922,
+      "sha256": "892c6e37c5aab62fc1cdd99245b10458d6224fef28b6dba417f0d3f481cf8592"
+    },
+    {
+      "path": "public/images/whale-coin.png",
+      "bytes": 1748468,
+      "sha256": "cab6fedb337b0bf795ef857bb2a5ed19cfafe7d59ceb2eeff984944000bafd27"
+    },
+    {
+      "path": "public/images/whale-exchange.jpg",
+      "bytes": 574795,
+      "sha256": "db457cde507fb5fa9f59b640aeb5384a87a06769122aec2aa9775cad17df8a7f"
+    },
+    {
+      "path": "public/images/whale-iss.jpg",
+      "bytes": 549156,
+      "sha256": "5ad6e24c1e355718f4655c65f794533ecb8475f7f03b2ee91b97c0be5374e0c0"
+    },
+    {
+      "path": "public/images/whale-monalisa.jpg",
+      "bytes": 715101,
+      "sha256": "ec6fb83fc0325959101cdefa06c2e4c9d6e7f527b66f3e5a75d1017b53f98139"
+    },
+    {
+      "path": "public/images/whale-rushmore.jpg",
+      "bytes": 738839,
+      "sha256": "94840c2f3ff1204f470c7d31d0c36151330895700de0b47959cd74a545e7a6c4"
+    },
+    {
+      "path": "public/images/whale-samurai.jpg",
+      "bytes": 607611,
+      "sha256": "013232d1dd00027ebb1f0a008c43102dd1c3762df54d004975af3d0c86217470"
+    },
+    {
+      "path": "public/images/whale-sistine.jpg",
+      "bytes": 780166,
+      "sha256": "6ac609ad4184287e9ab3d054ee423bccb3eaf42ae7a39f86ae5954e36bcf86b8"
+    },
+    {
+      "path": "public/images/whale-titanic.jpg",
+      "bytes": 492429,
+      "sha256": "c830c4edb0f1c81f90ce9a7972092e48936ba99fc7734060a3261dac4eeb6264"
+    },
+    {
+      "path": "public/images/whale-trading.jpg",
+      "bytes": 525310,
+      "sha256": "6d4a1e337c2e21e27dad89bafcdabd0c2c388e09e3986803270a9a6de019ba88"
+    },
+    {
+      "path": "public/images/whale-vogue.jpg",
+      "bytes": 372077,
+      "sha256": "412ec66721e7389f88c27f579dfe5a904058bce7aa58e318a4f606a71cbe38e4"
+    },
+    {
+      "path": "scripts/check-assets.mjs",
+      "bytes": 932,
+      "sha256": "457ed723e9b76d13888f32badda46c49e3a70a26f9ba516a3bdcfc0a4e7938ca"
+    },
+    {
+      "path": "scripts/check-content.mjs",
+      "bytes": 1472,
+      "sha256": "39c214699f033d099a4cd5ccdf5953b5a0ce9947eb65d0acf1d55447e103f0c0"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 562,
+      "sha256": "1519b3e409b0059442adaf1c0c663021214e914c0f80b40cbba705e378aa4537"
+    }
+  ]
+}

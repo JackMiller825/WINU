@@ -1,0 +1,205 @@
+{
+  "project": "WhaleCoin Inu",
+  "ticker": "WINU",
+  "reference_website": "https://thewhalecoin.xyz/",
+  "description": "12 replacement scenes + original-filename coin/banner + four approved branding assets.",
+  "reference_images_count": 14,
+  "notes": [
+    "All 12 scenes were individually generated in the earlier turns, then converted to 1024x1024 JPEG for drop-in use.",
+    "whale-banner.png and whale-coin.png are layout-compatible derived exports (not the approved social brand banners).",
+    "This ZIP contains image assets, not original website HTML/CSS, fonts, animations, or source code.",
+    "Original reference image files are excluded. Replacement filenames are intentional."
+  ],
+  "assets": [
+    {
+      "path": "WINU-scenes-preview.jpg",
+      "size": [
+        1024,
+        888
+      ],
+      "mode": "RGB",
+      "bytes": 411411,
+      "sha256": "8aeb07c5078b899a591601af26cfc3e4e58dfbd16c20a104a14251ae83e29982"
+    },
+    {
+      "path": "branding/winu-banner-1500x500.png",
+      "size": [
+        1500,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 1072084,
+      "sha256": "1a54358e541ab93d1073f17ec51d3362cf2e8f2ee8ea34a625c636f1b3a0ddb1"
+    },
+    {
+      "path": "branding/winu-logo-transparent.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1751015,
+      "sha256": "502b86a706448fbc42ea7d33c34d6bd34b7c34410b71b52c13b82933a2e18732"
+    },
+    {
+      "path": "branding/winu-mascot-transparent.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1068250,
+      "sha256": "997dc9ebcd3f68caafca69da0d72d2a31da10135a06f38a1a6f0dd7c4c4deb1f"
+    },
+    {
+      "path": "branding/winu-telegram-1100x520.png",
+      "size": [
+        1100,
+        520
+      ],
+      "mode": "RGB",
+      "bytes": 795002,
+      "sha256": "c514be804bbb1eb4ce24b54ae0cbf7fa1955094ca868abc52b0ae7b21ed2c587"
+    },
+    {
+      "path": "public/images/lore-before.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 557041,
+      "sha256": "0defdcfed6c8382257d108112e3f5a6ec17aecbcabb3a35d7d75f11e95f88381"
+    },
+    {
+      "path": "public/images/lore-famous.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 423430,
+      "sha256": "6a7ecb91c3f30dd844da8b9a6521e893fd9522e9e6127efb63c710ad12579900"
+    },
+    {
+      "path": "public/images/lore-found.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 459810,
+      "sha256": "d5de6de3705ce4fde4dc58aaf81712cd1b5646fa1f232541381bd55811882764"
+    },
+    {
+      "path": "public/images/whale-banner.png",
+      "size": [
+        1280,
+        426
+      ],
+      "mode": "RGB",
+      "bytes": 307922,
+      "sha256": "892c6e37c5aab62fc1cdd99245b10458d6224fef28b6dba417f0d3f481cf8592"
+    },
+    {
+      "path": "public/images/whale-coin.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "bytes": 1748468,
+      "sha256": "cab6fedb337b0bf795ef857bb2a5ed19cfafe7d59ceb2eeff984944000bafd27"
+    },
+    {
+      "path": "public/images/whale-exchange.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 574795,
+      "sha256": "db457cde507fb5fa9f59b640aeb5384a87a06769122aec2aa9775cad17df8a7f"
+    },
+    {
+      "path": "public/images/whale-iss.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 549156,
+      "sha256": "5ad6e24c1e355718f4655c65f794533ecb8475f7f03b2ee91b97c0be5374e0c0"
+    },
+    {
+      "path": "public/images/whale-monalisa.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 715101,
+      "sha256": "ec6fb83fc0325959101cdefa06c2e4c9d6e7f527b66f3e5a75d1017b53f98139"
+    },
+    {
+      "path": "public/images/whale-rushmore.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 738839,
+      "sha256": "94840c2f3ff1204f470c7d31d0c36151330895700de0b47959cd74a545e7a6c4"
+    },
+    {
+      "path": "public/images/whale-samurai.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 607611,
+      "sha256": "013232d1dd00027ebb1f0a008c43102dd1c3762df54d004975af3d0c86217470"
+    },
+    {
+      "path": "public/images/whale-sistine.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 780166,
+      "sha256": "6ac609ad4184287e9ab3d054ee423bccb3eaf42ae7a39f86ae5954e36bcf86b8"
+    },
+    {
+      "path": "public/images/whale-titanic.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 492429,
+      "sha256": "c830c4edb0f1c81f90ce9a7972092e48936ba99fc7734060a3261dac4eeb6264"
+    },
+    {
+      "path": "public/images/whale-trading.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 525310,
+      "sha256": "6d4a1e337c2e21e27dad89bafcdabd0c2c388e09e3986803270a9a6de019ba88"
+    },
+    {
+      "path": "public/images/whale-vogue.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 372077,
+      "sha256": "412ec66721e7389f88c27f579dfe5a904058bce7aa58e318a4f606a71cbe38e4"
+    }
+  ]
+}

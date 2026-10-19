@@ -1,0 +1,23 @@
+{
+  "name": "whalecoin-inu-winu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "tsc --noEmit",
+    "check": "npm run lint && node scripts/check-assets.mjs && node scripts/check-content.mjs",
+    "preview": "npx --yes serve out -p 3000"
+  },
+  "dependencies": {
+    "next": "^15.5.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
