@@ -19,17 +19,16 @@ This one-page site tells a fictional meme story for WhaleCoin Inu ($WINU), shows
 
 ## Playground
 
-- **Candle Surfer** — press Space, click, or tap to swim between candles.
-- **Whack-a-Rug** — bonk crabs for points. Hitting the whale costs points. Thirty seconds.
-- **Blowhole Airdrops** — move the chest to catch treasure. Three misses ends the round.
+- **Candle Surfer** — the whale hovers, then falls. Press Space, Arrow Up, or tap to swim through the candle gap.
+- **Whack-a-Rug** — crabs are +1 and the whale is −3. One pops up at a time for 30 seconds.
+- **Blowhole Airdrops** — drag the chest, or use Left and Right. Coins, pearls, and gems score 1, 2, and 3. Three misses ends the round.
 - **Escape** closes a game.
 
 ## Token information
 
-- The contract shows **Coming Soon..** until `site.tokenAddress` is a real address.
-- Copy stays disabled until then, and it never reports success without a clipboard write.
-- Supply is 1,000,000,000. Tax is 0%. LP burn and ownership renounce are **planned**.
-- No price, volume, or profit claims are shown.
+- The contract line shows the address from `content/site.ts`, or **Coming Soon..** while `tokenAddress` is empty.
+- **Copy** on the hero pill and in the contract section copies that visible text, including **Coming Soon..**. It changes to **Copied** only after the clipboard write succeeds.
+- Supply, tax, LP burn, and ownership stay in `content/site.ts` and are not repeated under the contract card.
 
 ## Official links
 
@@ -48,7 +47,7 @@ X and Telegram stay labeled **coming soon** until `site.links.x` and `site.links
 
 **Images broken on GitHub Pages:** the Pages workflow must build with `NEXT_PUBLIC_BASE_PATH=/WINU`. A root custom domain should use an empty base path.
 
-**Copy button disabled:** `site.tokenAddress` is still `null`.
+**Copy copies Coming Soon..:** that is the text on screen until `site.tokenAddress` is set. After it is set, Copy copies the address.
 
 **X/Telegram say coming soon:** those URLs are still `null`.
 

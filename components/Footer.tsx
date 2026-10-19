@@ -12,8 +12,8 @@ export function Footer() {
       </a>
       <p>© {new Date().getFullYear()} {site.name}. Built for the deep.<br className="footer-break" /> Not financial advice. Memes only.</p>
       <div className="footer-socials">
-        {site.links.x ? <a href={site.links.x} target="_blank" rel="noopener noreferrer" aria-label="WhaleCoin Inu on X"><Icon name="globe" size={20} /></a> : <span className="footer-social-soon" aria-label="X coming soon" title="X coming soon"><Icon name="globe" size={20} /></span>}
-        {site.links.telegram ? <a href={site.links.telegram} target="_blank" rel="noopener noreferrer" aria-label="WhaleCoin Inu on Telegram"><Icon name="external" size={20} /></a> : <span className="footer-social-soon" aria-label="Telegram coming soon" title="Telegram coming soon"><Icon name="external" size={20} /></span>}
+        {site.links.x ? <a href={site.links.x} target="_blank" rel="noopener noreferrer" aria-label="WhaleCoin Inu on X"><Icon name="x" size={20} /></a> : <span aria-label="X"><Icon name="x" size={20} /></span>}
+        {site.links.telegram ? <a href={site.links.telegram} target="_blank" rel="noopener noreferrer" aria-label="WhaleCoin Inu on Telegram"><Icon name="telegram" size={20} /></a> : <span aria-label="Telegram"><Icon name="telegram" size={20} /></span>}
       </div>
     </div>
   </footer>;

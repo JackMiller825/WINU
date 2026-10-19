@@ -1,4 +1,4 @@
-import { buySteps, site } from '@/content/site';
+import { buySteps } from '@/content/site';
 import { Reveal } from './Reveal';
 
 export function HowToBuy() {
@@ -15,7 +15,6 @@ export function HowToBuy() {
           <p>{step.body}</p>
         </article></Reveal>)}
       </div>
-      <p className="how-note">Official contract: <strong>{site.tokenAddress ?? 'Coming Soon..'}</strong></p>
     </div>
   </section>;
 }

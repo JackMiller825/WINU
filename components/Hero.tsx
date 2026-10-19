@@ -1,11 +1,14 @@
 'use client';
 import Image from 'next/image';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { site } from '@/content/site';
 import { asset } from '@/lib/assets';
+import { copyText } from '@/lib/copy';
 
 export function Hero() {
   const hero = useRef<HTMLElement>(null);
+  const [copied, setCopied] = useState(false);
+  const label = site.tokenAddress ?? 'Coming Soon..';
   useEffect(() => {
     const root = hero.current;
     if (!root || window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(pointer: coarse)').matches) return;
@@ -20,6 +23,14 @@ export function Hero() {
     return () => { root.removeEventListener('pointermove', onMove); root.removeEventListener('pointerleave', onLeave); };
   }, []);
 
+  function copyLabel() {
+    void copyText(label).then(ok => {
+      if (!ok) return;
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    });
+  }
+
   return <section ref={hero} className="hero" aria-labelledby="hero-title">
     <span className="spark spark-a" aria-hidden="true" />
     <span className="spark spark-b" aria-hidden="true" />
@@ -32,11 +43,10 @@ export function Hero() {
       <h1 id="hero-title">THE INTERNET&apos;S<br /><span>INU-WHALE.</span></h1>
       <p className="hero-lead">A cheeky, enormous gold whale with the ears, eyes, and personality of a Shiba Inu. Too big to be an Inu. Too meme to be a whale.</p>
       <div className="hero-ca">
-        <a className="ca-pill" href="#coin">
-          <code>{site.tokenAddress ?? 'Coming Soon..'}</code>
-          <span className="ca-copy" aria-hidden="true">{site.tokenAddress ? 'Copy' : 'Soon'}</span>
-        </a>
-        <p>* Not financial advice. Just a very large meme.</p>
+        <button type="button" className="ca-pill" onClick={copyLabel} aria-live="polite">
+          <code>{label}</code>
+          <span className="ca-copy">{copied ? 'Copied' : 'Copy'}</span>
+        </button>
       </div>
     </div>
   </section>;
