@@ -25,7 +25,7 @@ export function Playground() {
           <h2 id="play-heading" className="display-xl glow-text">Whale Activities</h2>
           <p>What does a majestic golden inu-whale do all day?</p>
         </div>
-        <Image src={asset('/images/whale-banner.png')} alt="WhaleCoin Inu golden coin banner" width={900} height={280} className="play-banner" />
+        <Image src={asset('/images/whale-banner.png')} alt="Whale Inu $WINU banner" width={900} height={280} className="play-banner" />
       </div></Reveal>
       <div className="play-grid">
         {activities.map((item, index) => <Reveal key={item.id} delay={index * 90}><article className="play-card">

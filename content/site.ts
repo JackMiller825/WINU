@@ -1,6 +1,6 @@
 /** Edit this file only to update factual token details or links across the site. */
 export const site = {
-  name: 'WhaleCoin Inu',
+  name: 'Whale Inu',
   symbol: 'WINU',
   ticker: '$WINU',
   chain: 'Ethereum Mainnet',

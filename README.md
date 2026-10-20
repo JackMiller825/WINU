@@ -1,6 +1,6 @@
-# WhaleCoin Inu ($WINU) — Next.js website
+# Whale Inu ($WINU) — Next.js website
 
-A single-page meme site for **WhaleCoin Inu ($WINU)** on **Ethereum Mainnet**. The layout, motion, and dark-gold ocean look follow the live reference at [thewhalecoin.xyz](https://thewhalecoin.xyz/). Copy, contract details, and social links are WINU's own. The reference token address and social accounts are not used.
+A single-page meme site for **Whale Inu ($WINU)** on **Ethereum Mainnet**. The layout, motion, and dark-gold ocean look follow the live reference at [thewhalecoin.xyz](https://thewhalecoin.xyz/). Copy, contract details, and social links are WINU's own. The reference token address and social accounts are not used.
 
 ## Start
 
@@ -47,7 +47,7 @@ The static output is written to `out/` (`output: 'export'` in `next.config.mjs`)
 
 `content/site.ts` is the source of truth.
 
-- Name: `WhaleCoin Inu` / ticker: `$WINU`
+- Name: `Whale Inu` / ticker: `$WINU`
 - Chain: Ethereum Mainnet
 - Total supply: **1,000,000,000**
 - Token tax: **0%**

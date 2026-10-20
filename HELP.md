@@ -1,8 +1,8 @@
-# WhaleCoin Inu — Website Help
+# Whale Inu — Website Help
 
 ## What the site does
 
-This one-page site tells a fictional meme story for WhaleCoin Inu ($WINU), shows a gallery of satirical scenes, lists planned token facts, and includes three small browser games. It is styled after the dark-gold ocean layout of the reference site, with WINU's own facts.
+This one-page site tells a fictional meme story for Whale Inu ($WINU), shows a gallery of satirical scenes, lists planned token facts, and includes three small browser games. It is styled after the dark-gold ocean layout of the reference site, with WINU's own facts.
 
 ## Navigation
 

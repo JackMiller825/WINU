@@ -34,7 +34,7 @@ export function Header() {
 
   return <header className="site-header" id="top">
     <div className="nav-shell">
-      <a className="brand" href="#top" aria-label="WhaleCoin Inu, back to top" onClick={() => setOpen(false)}>
+      <a className="brand" href="#top" aria-label={`${site.name}, back to top`} onClick={() => setOpen(false)}>
         <Image src={asset('/branding/winu-logo-transparent.png')} alt="" width={40} height={40} className="brand-mark" priority />
         <span className="brand-word">{site.ticker}</span>
       </a>

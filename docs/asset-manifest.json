@@ -1,5 +1,5 @@
 {
-  "project": "WhaleCoin Inu",
+  "project": "Whale Inu",
   "ticker": "WINU",
   "reference_website": "https://thewhalecoin.xyz/",
   "description": "12 replacement scenes + original-filename coin/banner + four approved branding assets.",
@@ -28,8 +28,8 @@
         500
       ],
       "mode": "RGB",
-      "bytes": 1072084,
-      "sha256": "1a54358e541ab93d1073f17ec51d3362cf2e8f2ee8ea34a625c636f1b3a0ddb1"
+      "bytes": 2072709,
+      "sha256": "7e6eeedf4f9dedd5ea56eb78fb76d9fb035857a39366fd5b9a5c8c884eb153a2"
     },
     {
       "path": "branding/winu-logo-transparent.png",
@@ -38,8 +38,8 @@
         1024
       ],
       "mode": "RGBA",
-      "bytes": 1751015,
-      "sha256": "502b86a706448fbc42ea7d33c34d6bd34b7c34410b71b52c13b82933a2e18732"
+      "bytes": 765440,
+      "sha256": "9015aeb22655c9277381d4403827d19f0a2e7de033b7d4bd77e19a6912b2b3fe"
     },
     {
       "path": "branding/winu-mascot-transparent.png",
@@ -48,8 +48,8 @@
         1024
       ],
       "mode": "RGBA",
-      "bytes": 1068250,
-      "sha256": "997dc9ebcd3f68caafca69da0d72d2a31da10135a06f38a1a6f0dd7c4c4deb1f"
+      "bytes": 577328,
+      "sha256": "f8c3f81dd039f2ce6961cc921b420aaf6efe0fb811c45cddc397888b36ad227a"
     },
     {
       "path": "branding/winu-telegram-1100x520.png",
@@ -58,8 +58,8 @@
         520
       ],
       "mode": "RGB",
-      "bytes": 795002,
-      "sha256": "c514be804bbb1eb4ce24b54ae0cbf7fa1955094ca868abc52b0ae7b21ed2c587"
+      "bytes": 1582475,
+      "sha256": "2fd65a8c3b983533659b3213415764fa10bfc7d6e02b62d2263d05f4102db9ea"
     },
     {
       "path": "public/images/lore-before.jpg",
@@ -98,18 +98,18 @@
         426
       ],
       "mode": "RGB",
-      "bytes": 307922,
-      "sha256": "892c6e37c5aab62fc1cdd99245b10458d6224fef28b6dba417f0d3f481cf8592"
+      "bytes": 557361,
+      "sha256": "e51b2b6656bc6ad9c0411f13e17e71db388631495a1556841b27beb2ce87c70b"
     },
     {
       "path": "public/images/whale-coin.png",
       "size": [
-        1254,
-        1254
+        1024,
+        1024
       ],
       "mode": "RGB",
-      "bytes": 1748468,
-      "sha256": "cab6fedb337b0bf795ef857bb2a5ed19cfafe7d59ceb2eeff984944000bafd27"
+      "bytes": 765440,
+      "sha256": "9015aeb22655c9277381d4403827d19f0a2e7de033b7d4bd77e19a6912b2b3fe"
     },
     {
       "path": "public/images/whale-exchange.jpg",

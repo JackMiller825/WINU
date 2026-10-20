@@ -38,7 +38,7 @@ export function Hero() {
     <div className="hero-inner">
       <div className="hero-coin-wrap">
         <div className="hero-glow" aria-hidden="true" />
-        <Image className="hero-coin" src={asset('/branding/winu-logo-transparent.png')} alt="Golden WhaleCoin Inu coin, a smiling whale with Shiba Inu ears" width={1024} height={1024} priority sizes="(max-width: 760px) 192px, 256px" />
+        <Image className="hero-coin" src={asset('/branding/winu-logo-transparent.png')} alt="Whale Inu $WINU logo, a crowned golden whale with Shiba Inu ears" width={1024} height={1024} priority sizes="(max-width: 760px) 192px, 256px" />
       </div>
       <h1 id="hero-title">THE INTERNET&apos;S<br /><span>INU-WHALE.</span></h1>
       <p className="hero-lead">A cheeky, enormous gold whale with the ears, eyes, and personality of a Shiba Inu. Too big to be an Inu. Too meme to be a whale.</p>
